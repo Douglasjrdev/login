@@ -51,3 +51,43 @@ main{
     padding: 10px;
     display: block;
 }
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario > p{
+    font-size: 0.8em;
+}
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 30px;
+    background-color:#7EADBF ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #0588A6;
+  
+}
+.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-decoration:none;
+    background-color: #ffffff;
+    border: 1px solid #7EADBF ;
+    border-radius: 5px;
+    color:#043959 ;
+}
+.botao:hover{
+    background-color: #3982a0;
+}
+#maill{
+    color:#043959 ;
+}
